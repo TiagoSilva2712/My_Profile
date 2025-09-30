@@ -1,0 +1,69 @@
+body {
+    /* Cor do texto principal */
+    color: #3d405b; /* Um cinza-azulado escuro */
+    
+    /* Gradiente de fundo */
+    background: #f4f1de; /* Cor sólida de fallback */
+    background: linear-gradient(0deg, #e07a5f 0%, #f4f1de 70%); /* Um toque de cor na base */
+    
+    min-height: 100vh;
+    font-family: 'Georgia', 'Times New Roman', Times, serif; /* Sugestão de fonte com serifa */
+}
+
+.container {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+
+}
+
+.container img {
+    width: 145px;
+    height: 193px;
+    object-fit: hover;
+    border-radius: 20%;
+    display: block;
+    margin: 0 auto 24px auto;
+}
+
+.profile h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-weight: 530;
+    text-align: center;
+
+}
+
+.links a {
+    display: flex;
+    height: 50px;
+    border: solid #444 1px;
+    border-radius: 35px;
+    text-decoration: none;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    margin-top: 80px;
+    color: #444;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.links a:hover{
+    border: solid #fff 1px;
+    color: #fff;
+    background: #bea673;
+}
+
+.links li {
+    list-style: none;
+}
+
+@media screen and (max-width: 720px) {
+    .profile {
+        font-size: 20px;
+    }
+}
