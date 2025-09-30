@@ -6,4 +6,4 @@ A simple personal profile page, developed as part of my front-end web developmen
 
 Here you can see the final result of the project:
 
-![Profile Page Preview](./preview.png)
+(https://tiagosilva2712.github.io/My_Profile/)
