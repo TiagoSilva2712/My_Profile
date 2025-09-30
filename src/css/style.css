@@ -62,6 +62,10 @@ body {
     list-style: none;
 }
 
+.links ul {
+    padding: 0;
+}
+
 @media screen and (max-width: 720px) {
     .profile {
         font-size: 20px;
